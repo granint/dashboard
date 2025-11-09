@@ -3,7 +3,6 @@ import SideNav from "./side-nav";
 import { SearchInput } from "./search";
 import { User } from "./user";
 import Providers from "./providers";
-import { Card } from "@/components/ui/card";
 
 export default async function DashboardLayout({
   children,

@@ -4,13 +4,13 @@ import { Table, TableBody, TableFooter, TableHead, TableHeader, TableRow } from 
 import { useTranslations } from "next-intl";
 
 export default function ProductsTable({
-    products,
-    offset,
-    totalProducts
-}: {
-    products?: any[];
-    offset?: number;
-    totalProducts?: number;
+//     products,
+//     offset,
+//     totalProducts
+// }: {
+//     products?: any[];
+//     offset?: number;
+//     totalProducts?: number;
 }) {
     const t = useTranslations("products");
     return (

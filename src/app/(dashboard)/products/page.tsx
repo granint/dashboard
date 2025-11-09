@@ -1,9 +1,7 @@
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
-import { Button } from '@/components/ui/button';
-import { Card, CardHeader, CardTitle, CardDescription, CardContent } from '@/components/ui/card';
+import { Card, CardContent } from '@/components/ui/card';
 import Action from './action';
 import { getTranslations } from 'next-intl/server';
-import { Div, H1 } from '@/components/ui/typography';
 import ProductsTable from './table';
 // import { ProductsTable } from './products-table';
 // import { getProducts } from '@/lib/db';
@@ -15,8 +13,8 @@ export default async function ProductsPage(
 ) {
   const t = await getTranslations("products");
   const searchParams = await props.searchParams;
-  const search = searchParams.q ?? '';
-  const offset = searchParams.offset ?? 0;
+  // const search = searchParams.q ?? '';
+  // const offset = searchParams.offset ?? 0;
   //   const { products, newOffset, totalProducts } = await getProducts(
   //     search,
   //     Number(offset)
@@ -25,7 +23,7 @@ export default async function ProductsPage(
   return (
     <Tabs defaultValue="all">
       <div className="items-center pb-4">
-        <H1>{t("title")}</H1>
+        <h1>{t("title")}</h1>
         <div className='text-muted-foreground text-sm'>{t("manage_products")}</div>
       </div>
       <div className="flex items-center">

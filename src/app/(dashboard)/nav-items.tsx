@@ -8,7 +8,6 @@ import {
     Calendar,
     Bell,
     Ticket,
-    Settings,
     Users2,
     ChartLine
 } from "lucide-react";
