@@ -1,0 +1,20 @@
+{
+    "_comment": "This is a JSON file for Vietnamese language.",
+    "metadata": {
+        "title": "Hệ thống quản trị Granint",
+        "description": "Hệ thống quản trị Granint"
+    },
+    "NavLinks": {
+        "home": "Trang chủ",
+        "customers": "Khách hàng",
+        "events": "Sự kiện",
+        "invoices": "Hóa đơn",
+        "analytics": "Phân tích",
+        "preferences": "Sở thích",
+        "notifications": "Thông báo"
+    },
+    "Home": {
+        "title": "Trang chủ",
+        "welcome": "Chào mừng bạn đến với trang chủ"
+    }
+}

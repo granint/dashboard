@@ -1,0 +1,49 @@
+{
+    "_comment": "这是一个用于中文语言的JSON文件。",
+    "app": {
+        "metadata": {
+            "title": "观英滩后台管理系统",
+            "description": "观英滩后台管理系统"
+        },
+        "site_name": "观英滩后台管理系统",
+        "search": {
+            "placeholder": "搜索..."
+        },
+        "language": {
+            "select_language": "选择语言",
+            "english": "英语",
+            "chinese": "中文"
+        }
+    },
+    "Profile": {
+        "account": "我的账户",
+        "settings": "设置",
+        "support": "支持",
+        "logout": "退出"
+    },
+    "NavItems": {
+        "home": "首页",
+        "orders": "订单",
+        "products": "产品",
+        "events": "活动",
+        "invoices": "收据",
+        "preferences": "设置",
+        "customers": "用户",
+        "analytics": "分析",
+        "notifications": "通知"
+    },
+    "DashboardPage": {
+        "title": "首页",
+        "welcome": "欢迎来到首页"
+    },
+    "products": {
+        "title": "产品",
+        "manage_products": "管理您的产品并查看其销售业绩。",
+        "all_products": "所有",
+        "active_products": "有效",
+        "draft_products": "草稿",
+        "archived_products": "归档",
+        "add_product": "添加",
+        "export": "导出"
+    }
+}

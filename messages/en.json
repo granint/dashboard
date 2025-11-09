@@ -1,0 +1,27 @@
+{
+    "_comment": "This is a JSON file for English language.",
+    "metadata": {
+        "title": "Granint Admin",
+        "description": "Granint Admin"
+    },
+    "AppLayout": {
+        "Search": {
+            "placeholder": "Search..."
+        }
+    },
+    "NavItems": {
+        "home": "Home",
+        "orders": "Orders",
+        "products": "Products",
+        "events": "Events",
+        "invoices": "Invoices",
+        "preferences": "Preferences",
+        "customers": "Customers",
+        "analytics": "Analytics",
+        "notifications": "Notifications"
+    },
+    "DashboardPage": {
+        "title": "Home",
+        "welcome": "Welcome to the home page"
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "_comment": "This is a JSON file for Korean language.",
+    "metadata": {
+        "title": "관영탄 백오피스 시스템",
+        "description": "관영탄 백오피스 시스템"
+    },
+    "NavLinks": {
+        "home": "홈",
+        "customers": "고객",
+        "events": "이벤트",
+        "invoices": "송장",
+        "analytics": "분석",
+        "preferences": "환경 설정",
+        "notifications": "알림"
+    },
+    "Home": {
+        "metadata": {
+            "title": "관영탄 백오피스 시스템",
+            "description": "관영탄 백오피스 시스템"
+        },
+        "title": "홈",
+        "welcome": "홈 페이지에 오신 것을 환영합니다"
+    },
+    "settings": {
+        "title": "설정",
+        "language": "언어",
+        "theme": "테마",
+        "light": "라이트",
+        "dark": "다크",
+        "system": "시스템 기본값"
+    }
+}

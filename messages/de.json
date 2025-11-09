@@ -1,0 +1,20 @@
+{
+    "_comment": "This is a JSON file for German language.",
+    "metadata": {
+        "title": "Granint-Verwaltungssystem",
+        "description": "Granint-Verwaltungssystem"
+    },
+    "NavLinks": {
+        "home": "Startseite",
+        "customers": "Kunden",
+        "events": "Veranstaltungen",
+        "invoices": "Rechnungen",
+        "analytics": "Analytik",
+        "preferences": "Einstellungen",
+        "notifications": "Benachrichtigungen"
+    },
+    "Home": {
+        "title": "Startseite",
+        "welcome": "Willkommen auf der Startseite"
+    }
+}
