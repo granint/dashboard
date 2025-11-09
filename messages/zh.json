@@ -44,6 +44,14 @@
         "draft_products": "草稿",
         "archived_products": "归档",
         "add_product": "添加",
-        "export": "导出"
+        "export": "导出",
+        "table": {
+            "name": "产品名称",
+            "price": "价格",
+            "status": "状态",
+            "total_sales": "总销售额",
+            "created_at": "创建时间",
+            "actions": "操作"
+        }
     }
 }
