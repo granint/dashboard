@@ -2,7 +2,7 @@ import type { Metadata, ResolvingMetadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { getLocale, getMessages, getTranslations } from "next-intl/server";
-import { NextIntlClientProvider, useTranslations } from "next-intl";
+import { NextIntlClientProvider } from "next-intl";
 
 // export const metadata: Metadata = {
 //   title: "Granint",
@@ -40,7 +40,6 @@ export default async function RootLayout({
   children: React.ReactNode;
 }>) {
   const local = await getLocale();
-  const t = await getTranslations();
 
   // Providing all messages to the client
   // side is the easiest way to get started
