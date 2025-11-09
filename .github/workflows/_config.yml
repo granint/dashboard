@@ -45,7 +45,7 @@ jobs:
         env:
           CNAME: dashboard.granint.com
         run:
-          cd build && echo $CNAME > CNAME
+          cd .next && echo $CNAME > CNAME
 
       # 查看 workflow 的文档来获取更多信息
       # @see https://github.com/crazy-max/ghaction-github-pages
