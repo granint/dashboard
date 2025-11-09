@@ -9,7 +9,6 @@ import {
     DropdownMenuSeparator,
     DropdownMenuTrigger
 } from '@/components/ui/dropdown-menu';
-import Link from 'next/link';
 import { getTranslations } from 'next-intl/server';
 
 export async function User() {
