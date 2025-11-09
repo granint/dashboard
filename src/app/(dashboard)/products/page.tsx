@@ -7,9 +7,9 @@ import ProductsTable from './table';
 // import { getProducts } from '@/lib/db';
 
 export default async function ProductsPage(
-  props: {
-    searchParams: Promise<{ q: string; offset: string }>;
-  }
+  // props: {
+  //   searchParams: Promise<{ q: string; offset: string }>;
+  // }
 ) {
   const t = await getTranslations("products");
   // const searchParams = await props.searchParams;
