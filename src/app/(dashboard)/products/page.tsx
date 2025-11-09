@@ -12,7 +12,7 @@ export default async function ProductsPage(
   }
 ) {
   const t = await getTranslations("products");
-  const searchParams = await props.searchParams;
+  // const searchParams = await props.searchParams;
   // const search = searchParams.q ?? '';
   // const offset = searchParams.offset ?? 0;
   //   const { products, newOffset, totalProducts } = await getProducts(
