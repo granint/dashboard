@@ -37,9 +37,6 @@ export default function ProductsTable({
                     <ProductRow key={product.id} product={product} />
                 ))} */}
             </TableBody>
-            <TableFooter>
-                test
-            </TableFooter>
         </Table>
     )
 }
