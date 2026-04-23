@@ -1,3 +1,5 @@
+'use client';
+
 import Link from 'next/link';
 import NavItems from './nav-items';
 import { VercelLogo } from '@/components/icons';
