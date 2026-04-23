@@ -15,7 +15,7 @@
             "chinese": "中文"
         }
     },
-    "Profile": {
+    "profile": {
         "account": "我的账户",
         "settings": "设置",
         "support": "支持",
@@ -32,19 +32,28 @@
         "analytics": "分析",
         "notifications": "通知"
     },
-    "DashboardPage": {
-        "title": "首页",
-        "welcome": "欢迎来到首页"
+    "dashboard": {
+        "title": "仪表板",
+        "description": "在这里您可以查看您的业务概况和最新活动。",
+        "overview": "概览",
+        "recentorders": "最近订单",
+        "sales_overview": "销售概览",
+        "recent_orders": "最近订单"
     },
     "products": {
         "title": "产品",
-        "manage_products": "管理您的产品并查看其销售业绩。",
+        "description": "管理您的产品并查看其销售业绩。",
         "all_products": "所有",
         "active_products": "有效",
         "draft_products": "草稿",
         "archived_products": "归档",
-        "add_product": "添加",
-        "export": "导出",
+        "action": {
+            "add": "添加",
+            "export": "导出",
+            "search": "搜索",
+            "edit": "编辑",
+            "delete": "删除"
+        },
         "table": {
             "name": "产品名称",
             "price": "价格",
@@ -52,6 +61,17 @@
             "total_sales": "总销售额",
             "created_at": "创建时间",
             "actions": "操作"
+        }
+    },
+    "events": {
+        "title": "活动",
+        "action": {
+            "label": "操作",
+            "add": "添加",
+            "export": "导出",
+            "search": "搜索",
+            "edit": "编辑",
+            "delete": "删除"
         }
     }
 }

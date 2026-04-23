@@ -12,7 +12,7 @@ import {
 import { getTranslations } from 'next-intl/server';
 
 export async function User() {
-    const t = await getTranslations("Profile");
+    const t = await getTranslations("profile");
     //   let session = await auth();
     //   let user = session?.user;
 

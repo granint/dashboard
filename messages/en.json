@@ -1,13 +1,25 @@
 {
     "_comment": "This is a JSON file for English language.",
-    "metadata": {
-        "title": "Granint Admin",
-        "description": "Granint Admin"
-    },
-    "AppLayout": {
-        "Search": {
+    "app": {
+        "metadata": {
+            "title": "Granint Admin",
+            "description": "Granint Admin"
+        },
+        "site_name": "Granint Dashboard",
+        "search": {
             "placeholder": "Search..."
+        },
+        "language": {
+            "select_language": "Select Language",
+            "english": "English",
+            "chinese": "Chinese"
         }
+    },
+    "profile": {
+        "account": "My Account",
+        "settings": "Settings",
+        "support": "Support",
+        "logout": "Logout"
     },
     "NavItems": {
         "home": "Home",
@@ -21,7 +33,33 @@
         "notifications": "Notifications"
     },
     "DashboardPage": {
-        "title": "Home",
-        "welcome": "Welcome to the home page"
+        "title": "Dashboard",
+        "welcome": "Welcome to the dashboard! Here you can see an overview of your business and recent activity.",
+        "sales_overview": "Sales Overview",
+        "recent_orders": "Recent Orders"
+    },
+    "products": {
+        "title": "Products",
+        "manage_products": "Manage your products and see how they are performing.",
+        "all_products": "All",
+        "active_products": "Active",
+        "draft_products": "Draft",
+        "archived_products": "Archived",
+        "action": {
+            "label": "Actions",
+            "add": "Add",
+            "export": "Export",
+            "search": "Search",
+            "edit": "Edit",
+            "delete": "Delete"
+        },
+        "table": {
+            "name": "Name",
+            "price": "Price",
+            "status": "Status",
+            "total_sales": "Total Sales",
+            "created_at": "Created At",
+            "actions": "Actions"
+        }
     }
 }
