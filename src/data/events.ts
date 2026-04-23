@@ -80,8 +80,8 @@ export async function getEvents(
     offset: number) {
     return {
         events: events.filter(event => event.name.includes(search)),
-        newOffset: 0,
-        totalEvents: 0
+        newOffset: offset + events.length,
+        totalEvents: events.length
     };
 }
 

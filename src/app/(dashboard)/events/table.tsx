@@ -18,7 +18,11 @@ export default function EventsTable({
     offset: number;
     totalEvents: number;
 }) {
+    
     const t = useTranslations("events");
+    
+    const hasMore = offset + events.length < totalEvents;
+
     return (
         <div>
             <div className="divide-y">

@@ -3,17 +3,22 @@
 import { Table, TableBody, TableHead, TableHeader, TableRow } from "@/components/ui/table";
 import { useTranslations } from "next-intl";
 import ProductRow from "./row";
+import { productProps } from "@/types/product";
 
 export default function ProductsTable({
     products,
     offset,
     totalProducts
 }: {
-    products?: any[];
+    products?: productProps[];
     offset?: number;
     totalProducts?: number;
 }) {
+
     const t = useTranslations("products");
+
+    const hasMore = offset && totalProducts ? offset + products!.length < totalProducts : false;
+
     return (
         <Table>
             <TableHeader>

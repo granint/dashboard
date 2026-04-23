@@ -23,7 +23,7 @@ export default function ProductsAction() {
 }
 
 export async function deleteProduct(formData: FormData) {
-  // let id = Number(formData.get('id'));
-  // await deleteProductById(id);
-  // revalidatePath('/');
+    let id = Number(formData.get('id'));
+    // await deleteProductById(id);
+    // revalidatePath('/');
 }

@@ -23,7 +23,7 @@ export default function EventsAction() {
 }
 
 export async function deleteEvent(formData: FormData) {
-  // let id = Number(formData.get('id'));
-  // await deleteProductById(id);
-  // revalidatePath('/');
+    let id = Number(formData.get('id'));
+    //   await deleteProductById(id);
+    //   revalidatePath('/');
 }
