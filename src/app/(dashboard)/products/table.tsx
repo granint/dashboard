@@ -1,6 +1,6 @@
 'use client';
 
-import { Table, TableBody, TableHead, TableHeader, TableRow } from "@/components/ui/table";
+import { Table, TableBody, TableFooter, TableHead, TableHeader, TableRow } from "@/components/ui/table";
 import { useTranslations } from "next-intl";
 import ProductRow from "./row";
 import { productProps } from "@/types/product";
@@ -43,6 +43,17 @@ export default function ProductsTable({
                     ))
                 }
             </TableBody>
+            <TableFooter>
+                {
+                    hasMore && (
+                        <TableRow>
+                            <TableHead colSpan={6} className="text-center">
+                                {t("table.load_more")}
+                            </TableHead>
+                        </TableRow>
+                    )
+                }
+            </TableFooter>
         </Table>
     )
 }
