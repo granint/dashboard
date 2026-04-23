@@ -15,16 +15,16 @@ import { useTranslations } from "next-intl";
 import NavItem from "./nav-item";
 
 // Depending on the size of the application, this would be stored in a database.
-const links = [
-    { name: 'home', href: '/', icon: Home },
-    { name: 'orders', href: '/orders', icon: ShoppingCart },
-    { name: 'products', href: '/products', icon: Package },
-    { name: 'events', href: '/events', icon: Calendar, },
-    { name: 'invoices', href: '/invoices', icon: Ticket, },
-    // { name: 'preferences', href: '/settings', icon: Settings },
-    { name: 'customers', href: '/customers', icon: Users2 },
-    { name: 'analytics', href: '/analytics', icon: ChartLine },
-    { name: 'notifications', href: '/notification', icon: Bell },
+const navs = [
+    { label: 'home', link: '/', icon: Home },
+    { label: 'orders', link: '/orders', icon: ShoppingCart },
+    { label: 'products', link: '/products', icon: Package },
+    { label: 'events', link: '/events', icon: Calendar, },
+    { label: 'invoices', link: '/invoices', icon: Ticket, },
+    // { label: 'preferences', link: '/settings', icon: Settings },
+    { label: 'customers', link: '/customers', icon: Users2 },
+    { label: 'analytics', link: '/analytics', icon: ChartLine },
+    { label: 'notifications', link: '/notification', icon: Bell },
 ];
 
 export default function NavItems() {
@@ -34,14 +34,14 @@ export default function NavItems() {
     return (
         <>
             {
-                links.map((item, index) => {
+                navs.map((item, index) => {
 
                     const LinkIcon = item.icon;
 
                     return (
-                        <NavItem key={index} href={item.href} label={t(item.name)}>
+                        <NavItem key={index} link={item.link} label={t(item.label)}>
                             <LinkIcon className="h-5 w-5" />
-                            {/* <p className="hidden md:block">{t(item.name)}</p> */}
+                            {/* <p className="hidden md:block">{t(item.label)}</p> */}
                         </NavItem>
                     );
                 })

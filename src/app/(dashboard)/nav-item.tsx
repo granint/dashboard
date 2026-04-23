@@ -10,26 +10,31 @@ import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 
 export default function NavItem({
-  href,
   label,
+  link,
   children
 }: {
-  href: string;
   label: string;
+  link: string;
   children: React.ReactNode;
 }) {
 
   const pathname = usePathname();
 
+  const heighlight =
+    link === '/'
+      ? pathname === link
+      : pathname.startsWith(link);
+
   return (
     <Tooltip>
       <TooltipTrigger asChild>
         <Link
-          href={href}
+          href={link}
           className={clsx(
             'flex h-9 w-9 items-center justify-center rounded-lg text-muted-foreground transition-colors hover:text-foreground md:h-8 md:w-8',
             {
-              'bg-accent text-black': pathname === href
+              'bg-accent text-black': heighlight
             }
           )}
         >
