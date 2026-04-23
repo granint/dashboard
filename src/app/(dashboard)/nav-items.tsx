@@ -33,17 +33,19 @@ export default function NavItems() {
 
     return (
         <>
-            {links.map((item, index) => {
+            {
+                links.map((item, index) => {
 
-                const LinkIcon = item.icon;
+                    const LinkIcon = item.icon;
 
-                return (
-                    <NavItem key={index} href={item.href} label={t(item.name)}>
-                        <LinkIcon className="h-5 w-5" />
-                        {/* <p className="hidden md:block">{t(item.name)}</p> */}
-                    </NavItem>
-                );
-            })}
+                    return (
+                        <NavItem key={index} href={item.href} label={t(item.name)}>
+                            <LinkIcon className="h-5 w-5" />
+                            {/* <p className="hidden md:block">{t(item.name)}</p> */}
+                        </NavItem>
+                    );
+                })
+            }
         </>
     );
 }
