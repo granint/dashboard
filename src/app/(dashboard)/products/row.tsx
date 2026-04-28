@@ -34,8 +34,9 @@ export default function ProductRow({ product }: { product: productProps }) {
             </TableCell>
             <TableCell className="hidden md:table-cell">{`$${product.price}`}</TableCell>
             <TableCell className="hidden md:table-cell">{product.stock}</TableCell>
+            <TableCell className="hidden md:table-cell">{product.total_sales}</TableCell>
             <TableCell className="hidden md:table-cell">
-                {/* {product.availableAt.toLocaleDateString("en-US")} */}
+                {product.created_at.toLocaleString("zh-CN")}
             </TableCell>
             <TableCell>
                 <DropdownMenu>

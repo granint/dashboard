@@ -10,7 +10,7 @@ const products: productProps[] = [
         price: 29.99,
         stock: 20,
         total_sales: 100,
-        created_at: '2024-01-01'
+        created_at: new Date('2024-01-01')
     },
     {
         id: 2,
@@ -20,7 +20,7 @@ const products: productProps[] = [
         price: 19.99,
         stock: 20,
         total_sales: 50,
-        created_at: '2024-02-01'
+        created_at: new Date('2024-01-01 12:58')
     },
     {
         id: 3,
@@ -30,7 +30,7 @@ const products: productProps[] = [
         price: 39.99,
         stock: 15,
         total_sales: 75,
-        created_at: '2024-03-01'
+        created_at: new Date('2024-01-01')
     }
 ];
 
@@ -43,4 +43,8 @@ export async function getProducts(
         newOffset: offset + products.length,
         totalProducts: products.length
     };
+}
+
+export async function getAllProducts() {
+    return products;
 }

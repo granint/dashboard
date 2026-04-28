@@ -29,6 +29,7 @@ export default function ProductsTable({
                     <TableHead>{t("table.name")}</TableHead>
                     <TableHead>{t("table.status")}</TableHead>
                     <TableHead className="hidden md:table-cell">{t("table.price")}</TableHead>
+                    <TableHead className="hidden md:table-cell">{t("table.stock")}</TableHead>
                     <TableHead className="hidden md:table-cell">{t("table.total_sales")}</TableHead>
                     <TableHead className="hidden md:table-cell">{t("table.created_at")}</TableHead>
                     <TableHead>

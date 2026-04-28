@@ -9,5 +9,5 @@ export interface productProps {
     stock: number;
     description?: string;
     total_sales: number;
-    created_at: string;
+    created_at: Date;
 }
